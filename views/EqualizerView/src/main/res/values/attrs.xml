@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--eq条形进度条-->
+    <declare-styleable name="EqSquareProgress">
+        <attr name="max" />
+        <attr name="min" />
+        <attr name="step" />
+        <attr name="default_color" format="color" />
+        <attr name="adjusting_color" format="color" />
+        <attr name="adjusted_color" format="color" />
+    </declare-styleable>
+</resources>

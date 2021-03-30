@@ -1,0 +1,19 @@
+ext {
+    // tool version
+    compileSdkVersion = 28
+    buildToolsVersion = '28.0.3'
+    minSdkVersion = 23
+    targetSdkVersion = 28
+}
+
+ext {
+
+    // android support
+    appcompat_v7_version = "28.0.0"
+    junit_version = "4.12"
+    runner_version = "1.0.2"
+    espresso_core_version = "3.0.2"
+
+    // recyclerView
+    recyclerView_version = "28.0.0"
+}

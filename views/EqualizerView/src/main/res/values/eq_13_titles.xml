@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--默认的eq 频率名称-->
+    <!--13段EQ-->
+    <string-array name="eq_titles_13" translatable="false">
+        <item>50Hz</item>
+        <item>80Hz</item>
+        <item>125Hz</item>
+        <item>200Hz</item>
+        <item>315Hz</item>
+        <item>500Hz</item>
+        <item>800Hz</item>
+        <item>1.25KHz</item>
+        <item>2KHz</item>
+        <item>3.15KHz</item>
+        <item>5KHz</item>
+        <item>8KHz</item>
+        <item>12.5KHz</item>
+    </string-array>
+</resources>

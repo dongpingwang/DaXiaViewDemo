@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_color_normal">#FFFFFF</color>
+    <color name="text_color_normal8">#CCFFFFFF</color>
+
+    <color name="eq_progress_default_color">#404858</color>
+    <color name="eq_progress_adjusting_color">#40D3B3</color>
+    <color name="eq_progress_adjusted_color">#B3FFFFFF</color>
+</resources>

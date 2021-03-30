@@ -1,0 +1,5 @@
+include ':test'
+
+def viewPath = './views/'
+include ':EqualizerView'
+project(':EqualizerView').projectDir = new File(viewPath + 'EqualizerView')

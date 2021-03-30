@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DaXiaViewDemo</string>
+    <string name="activity_eq_title">音效:EQ-13段调节</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--13段EQ频率-->
+    <integer-array name="eq_frequencies">
+        <item>50</item>
+        <item>80</item>
+        <item>125</item>
+        <item>200</item>
+        <item>315</item>
+        <item>500</item>
+        <item>800</item>
+        <item>1250</item>
+        <item>2000</item>
+        <item>3150</item>
+        <item>5000</item>
+        <item>8000</item>
+        <item>12500</item>
+    </integer-array>
+</resources>

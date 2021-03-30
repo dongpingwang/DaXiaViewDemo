@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="views_test">
+        <item>@string/activity_eq_title</item>
+    </string-array>
+</resources>
