@@ -2,7 +2,6 @@ package com.daxia.view.demo.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
@@ -10,26 +9,26 @@ import com.daxia.view.demo.R;
 import com.daxia.view.demo.util.ToastUtils;
 import com.daxia.view.equalizerview.view.EqSquareBars;
 
-public class EQActivity extends AppCompatActivity implements EqSquareBars.OnRegionChangeListener, View.OnClickListener {
+public class EQActivity extends CommActivity implements EqSquareBars.OnRegionChangeListener, View.OnClickListener {
 
     private EqSquareBars eqBars;
     private Button btnEqUp;
     private Button btnEqDown;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void init(@Nullable Bundle savedInstanceState) {
         setContentView(R.layout.activity_eq);
-        if (getSupportActionBar() != null) {
-            getSupportActionBar().setTitle(R.string.activity_eq_title);
-        }
         eqBars = (EqSquareBars) findViewById(R.id.eq_bars);
         btnEqUp = (Button) findViewById(R.id.btn_eq_gain_up);
         btnEqDown = (Button) findViewById(R.id.btn_eq_gain_down);
         eqBars.setOnRegionChangeListener(this);
         btnEqUp.setOnClickListener(this);
         btnEqDown.setOnClickListener(this);
+    }
 
+    @Override
+    protected int getTitleRes() {
+        return R.string.activity_eq_title;
     }
 
     @Override

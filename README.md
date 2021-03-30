@@ -17,4 +17,5 @@
      
      音效EQ-13段调节View，学习自定义"SeekBar"和RecyclerView
    
-   - TODO
+   - MusicAlbumView
+     音乐旋转专辑封面，学习自定义"渐变圆环"和属性动画

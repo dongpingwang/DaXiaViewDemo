@@ -2,4 +2,6 @@ include ':test'
 
 def viewPath = './views/'
 include ':EqualizerView'
+include ':MusicAlbumView'
 project(':EqualizerView').projectDir = new File(viewPath + 'EqualizerView')
+project(':MusicAlbumView').projectDir = new File(viewPath + 'MusicAlbumView')

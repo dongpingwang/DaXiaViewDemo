@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--圆环半径-->
+    <dimen name="widget_album_ring_width">16.76dp</dimen>
+    <!--圆环中圆线-->
+    <dimen name="widget_album_ring_line_width">0.43dp</dimen>
+    <!--竖直卡片留声机大小-->
+    <dimen name="widget_album_size_vertical">101.62dp</dimen>
+    <!--豎直卡片圆形专辑图片-->
+    <dimen name="widget_album_pic_size">52.97dp</dimen>
+</resources>

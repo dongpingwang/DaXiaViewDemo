@@ -22,6 +22,8 @@ dependencies {
     androidTestImplementation "com.android.support.test:runner:$rootProject.runner_version"
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$rootProject.espresso_core_version"
 
-    implementation(project(':EqualizerView'))
     implementation "com.android.support:recyclerview-v7:$rootProject.recyclerView_version"
+
+    implementation(project(':EqualizerView'))
+    implementation(project(':MusicAlbumView'))
 }

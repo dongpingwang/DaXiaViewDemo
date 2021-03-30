@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/widget_album_size_vertical"
+    android:layout_height="@dimen/widget_album_size_vertical"
+    android:background="@drawable/rotate_album_bg">
+
+    <ImageView
+        android:id="@+id/view_pic"
+        android:layout_width="@dimen/widget_album_pic_size"
+        android:layout_height="@dimen/widget_album_pic_size"
+        android:layout_centerInParent="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_qifenle" />
+
+    <com.daxia.view.musicalbumview.WidgetAlbumBgView
+        android:layout_width="86.49dp"
+        android:layout_height="86.49dp"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

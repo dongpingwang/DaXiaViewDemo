@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.daxia.view.demo.activity.EQActivity;
+import com.daxia.view.demo.activity.MusicAlbumActivity;
 
 public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.VH> {
 
@@ -61,6 +62,8 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.VH> {
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
         if (position == 0) {
             intent.setClass(context, EQActivity.class);
+        } else {
+            intent.setClass(context, MusicAlbumActivity.class);
         }
         context.startActivity(intent);
     }
